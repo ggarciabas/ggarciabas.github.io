@@ -1,0 +1,68 @@
+:root {
+    --steel-blue: #4682B4;
+}
+
+@font-face {
+    font-family: 'Special Elite';
+    src: url('fonts/Special_Elite/SpecialElite-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('fonts/Open_Sans_Condensed/OpenSansCondensed-Light.ttf');
+}
+
+* {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1, h2, .navbar-brand {
+    font-family: 'Special Elite', monospace;
+}
+
+.navbar-link {
+    text-decoration: none;
+}
+
+.section {
+    background-color: var(--bs-light);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+@media (orientation: landscape) {
+    p {
+        font-size: 1.25rem;
+    }
+}
+
+@media (orientation: portrait) {
+    .section {
+        padding-top: 7rem;
+    }
+}
+
+.profile-picture {
+    border-top-left-radius: 255px 30px;
+    border-top-right-radius: 45px 225px;
+    border-bottom-right-radius: 225px 15px;
+    border-bottom-left-radius: 30px 255px;
+    border: solid 1rem var(--steel-blue)
+}
+
+footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.bg-blue-primary {
+    background-color: var(--steel-blue);
+}
+
+.text-blue-primary {
+    color: var(--steel-blue);
+}
