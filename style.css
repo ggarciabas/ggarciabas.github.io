@@ -12,23 +12,34 @@
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-h1 {
+h1, h2, .navbar-brand {
     font-family: 'Special Elite', monospace;
 }
 
-p {
-    font-size: 1.25rem;
-}
-
-* {
-    background-color: var(--bs-light);
+.navbar-link {
+    text-decoration: none;
 }
 
 .section {
+    background-color: var(--bs-light);
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+@media (orientation: landscape) {
+    p {
+        font-size: 1.25rem;
+    }
+}
+
+@media (orientation: portrait) {
+    .section {
+        padding-top: 7rem;
+    }
 }
 
 .profile-picture {
