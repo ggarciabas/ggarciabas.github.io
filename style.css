@@ -1,0 +1,23 @@
+
+@font-face {
+    font-family: 'Special Elite';
+    src: url('fonts/Special_Elite/SpecialElite-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('fonts/Open_Sans_Condensed/OpenSansCondensed-Light.ttf');
+}
+
+* {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1 {
+    font-family: 'Special Elite', monospace;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
