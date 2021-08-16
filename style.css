@@ -49,3 +49,8 @@ h1, h2, .navbar-brand {
     border-bottom-left-radius: 30px 255px;
     border: solid 1rem var(--bs-dark)
 }
+
+footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
